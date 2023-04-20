@@ -34,6 +34,7 @@ public class Question5 {
       int number = in.nextInt();
       numbers[i] = number;
     }
+    in.close();
 
     // Finds the mode (most occurring number).
     int mode = -1;
